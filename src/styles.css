@@ -1,0 +1,2634 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Inter:400,700,600"); */
+
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
+
+.screen * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+
+.component-wrapper a {
+  display: contents;
+  pointer-events: auto;
+  text-decoration: none;
+}
+
+.component-wrapper * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.component-wrapper a *,
+.component-wrapper input,
+.component-wrapper video,
+.component-wrapper iframe {
+  pointer-events: auto;
+}
+
+.component-wrapper.not-ready,
+.component-wrapper.not-ready * {
+  visibility: hidden !important;
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.full-width-a {
+  width: 100%;
+}
+
+.full-height-a {
+  height: 100%;
+}
+
+.container-center-vertical {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  pointer-events: none;
+}
+
+.container-center-vertical > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.auto-animated div {
+  --z-index: -1;
+  opacity: 0;
+  position: absolute;
+}
+
+.auto-animated input {
+  --z-index: -1;
+  opacity: 0;
+  position: absolute;
+}
+
+.auto-animated .container-center-vertical,
+.auto-animated .container-center-horizontal {
+  opacity: 1;
+}
+
+.overlay-base {
+  display: none;
+  height: 100%;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.overlay-base.animate-appear {
+  align-items: center;
+  animation: reveal 0.3s ease-in-out 1 normal forwards;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+}
+
+.overlay-base.animate-disappear {
+  animation: reveal 0.3s ease-in-out 1 reverse forwards;
+  display: block;
+  opacity: 1;
+  pointer-events: none;
+}
+
+.overlay-base.animate-disappear * {
+  pointer-events: none;
+}
+
+@keyframes reveal {
+  from { opacity: 0 }
+ to { opacity: 1 }
+}
+
+.animate-nodelay {
+  animation-delay: 0s;
+}
+
+.align-self-flex-start {
+  align-self: flex-start;
+}
+
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
+.align-self-flex-center {
+  align-self: flex-center;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.valign-text-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+input:focus {
+  outline: none;
+}
+
+.listeners-active,
+.listeners-active * {
+  pointer-events: auto;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.smart-layers-pointers,
+.smart-layers-pointers * {
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.listeners-active-click,
+.listeners-active-click * {
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+:root { 
+ 
+ 
+}
+:root {
+}
+
+
+/* screen - criadores */
+
+.criadores {
+  background-color: #ffffff;
+  height: 2102px;
+  opacity: 1;
+  overflow-x: hidden;
+  position: relative;
+  width: 1915px;
+}
+
+.criadores .footer-C61RwL {
+  --z-index: 0;
+  align-items: flex-start;
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(165.00000536441803, 53.00000064074993, 252.00000017881393) 100%);
+  background-color: transparent;
+  box-shadow: inset 0px 16px 32px -4px #0c0c0d1a;
+  display: flex;
+  gap: 400px;
+  height: 107px;
+  left: 0px;
+  opacity: 1;
+  overflow: hidden;
+  padding: 32px 0px 160px 50px;
+  position: absolute;
+  top: 1995px;
+  width: 1915px;
+}
+
+.criadores .title-iPe1yZ {
+  --z-index: 0;
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 24px;
+  margin-bottom: -137.00px;
+  min-width: 240px;
+  opacity: 1;
+  position: relative;
+  width: 240px;
+}
+
+.criadores .monitoria-zHSyxO {
+  --z-index: 0;
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  opacity: 1;
+  position: relative;
+}
+
+.criadores .logo-lhPAdV {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/logo.png);
+  background-size: 100% 100%;
+  height: 52px;
+  object-fit: cover;
+  opacity: 1;
+  position: relative;
+  width: 53px;
+}
+
+.criadores .button-list-zHSyxO {
+  --z-index: 1;
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  opacity: 1;
+  position: relative;
+}
+
+.criadores .logo-instagram-inxydy {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/logo-instagram.svg);
+  background-size: 100% 100%;
+  height: 24px;
+  opacity: 1;
+  position: relative;
+  width: 24px;
+}
+
+.criadores .text-link-list-iPe1yZ {
+  --z-index: 1;
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 92px;
+  height: 41px;
+  justify-content: center;
+  margin-bottom: -126.00px;
+  opacity: 1;
+  position: relative;
+  width: 556px;
+}
+
+.criadores .text-link-list-item-8oTHdx {
+  --z-index: 0;
+  background-color: transparent;
+  height: 22px;
+  opacity: 1;
+  position: relative;
+  width: 75px;
+}
+
+.criadores .list-item-Thcyue {
+  --z-index: 0;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Inter', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  height: 22px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 22.4px;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: -1px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.criadores .text-link-list-item-xZzNoU {
+  --z-index: 1;
+  background-color: transparent;
+  cursor: pointer;
+  height: 22px;
+  opacity: 1;
+  position: relative;
+  width: 79px;
+}
+
+.criadores .list-item-6Mofaj {
+  --z-index: 0;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Inter', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  height: 22px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 22.4px;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: -1px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.criadores .angular-C61RwL {
+  --z-index: 1;
+  background-color: transparent;
+  height: 616px;
+  left: 654px;
+  opacity: 1;
+  position: absolute;
+  top: 356px;
+  width: 586px;
+}
+
+.criadores .angular-ZCAkeH {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/angular.png);
+  background-size: 100% 100%;
+  height: 387px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 586px;
+}
+
+.criadores .image-2-ZCAkeH {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/image-2@2x.png);
+  background-size: 100% 100%;
+  height: 292px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 324px;
+  width: 498px;
+}
+
+.criadores .image-3-ZCAkeH {
+  --z-index: 2;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/image-3@2x.png);
+  background-size: 100% 100%;
+  height: 292px;
+  left: 121px;
+  opacity: 1;
+  position: absolute;
+  top: 324px;
+  width: 441px;
+}
+
+.criadores .pedro-C61RwL {
+  --z-index: 2;
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  left: 200px;
+  opacity: 1;
+  position: absolute;
+  top: 733px;
+  width: 400px;
+}
+
+.criadores .image-6-xy4x3m {
+  --z-index: 0;
+  align-self: stretch;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/image-6@2x.png);
+  background-size: 100% 100%;
+  height: 400px;
+  object-fit: cover;
+  opacity: 1;
+  position: relative;
+  width: 100%;
+}
+
+.criadores .pedro-resende-xy4x3m {
+  --z-index: 1;
+  background-color: transparent;
+  color: #000000;
+  font-family: 'Inter', Helvetica;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 2.70px;
+  line-height: 53.6px;
+  opacity: 1;
+  position: relative;
+  text-align: left;
+  width: 373px;
+}
+
+.criadores .lucas-C61RwL {
+  --z-index: 3;
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  left: 1305px;
+  opacity: 1;
+  position: absolute;
+  top: 706px;
+  width: 400px;
+}
+
+.criadores .image-5-zecxFz {
+  --z-index: 0;
+  align-self: stretch;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/image-5@2x.png);
+  background-size: 100% 100%;
+  height: 400px;
+  object-fit: cover;
+  opacity: 1;
+  position: relative;
+  width: 100%;
+}
+
+.criadores .lucas-borges-zecxFz {
+  --z-index: 1;
+  align-self: stretch;
+  background-color: transparent;
+  color: #000000;
+  font-family: 'Inter', Helvetica;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 2.70px;
+  line-height: 53.6px;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+}
+
+.criadores .pedro-VMr6Om {
+  --z-index: 4;
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  left: 198px;
+  opacity: 1;
+  position: absolute;
+  top: 180px;
+  width: 404px;
+}
+
+.criadores .pedro-l1IGQ7 {
+  --z-index: 0;
+  align-self: stretch;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/pedro@2x.png);
+  background-size: 100% 100%;
+  height: 400px;
+  object-fit: cover;
+  opacity: 1;
+  position: relative;
+  width: 100%;
+}
+
+.criadores .pedro-garcia-l1IGQ7 {
+  --z-index: 1;
+  align-self: stretch;
+  background-color: transparent;
+  color: #000000;
+  font-family: 'Inter', Helvetica;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 2.70px;
+  line-height: 53.6px;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+}
+
+.criadores .lucas-VMr6Om {
+  --z-index: 5;
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  left: 1292px;
+  opacity: 1;
+  position: absolute;
+  top: 180px;
+  width: 426px;
+}
+
+.criadores .image-4-xmj34j {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/image-4@2x.png);
+  background-size: 100% 100%;
+  height: 400px;
+  object-fit: cover;
+  opacity: 1;
+  position: relative;
+  width: 400px;
+}
+
+.criadores .lucas-villas-boas-xmj34j {
+  --z-index: 1;
+  background-color: transparent;
+  color: #000000;
+  font-family: 'Inter', Helvetica;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 2.70px;
+  line-height: 53.6px;
+  opacity: 1;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.criadores .nav-C61RwL {
+  --z-index: 6;
+  align-items: center;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgb(255, 0, 0) 100%);
+  background-color: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px 150px;
+  height: 106px;
+  justify-content: center;
+  left: 0px;
+  opacity: 1;
+  padding: 40px 46px;
+  position: fixed;
+  top: 0px;
+  width: 1915px;
+}
+
+.criadores .logo-Ebfosa {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/logo-1@2x.png);
+  background-size: 100% 100%;
+  height: 76px;
+  margin-bottom: -25.00px;
+  margin-top: -25.00px;
+  opacity: 1;
+  position: relative;
+  width: 75px;
+}
+
+.criadores .barra-de-busca-Ebfosa {
+  --z-index: 1;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 9999px;
+  display: flex;
+  gap: 8px;
+  height: 53px;
+  margin-bottom: -13.50px;
+  margin-top: -13.50px;
+  opacity: 1;
+  overflow: hidden;
+  padding: 12px 16px;
+  position: relative;
+  width: 623px;
+}
+
+.criadores .value-1jUYmM {
+  --z-index: 0;
+  background-color: transparent;
+  color: #000000;
+  flex: 1;
+  font-family: 'Inter', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  opacity: 1;
+  position: relative;
+  text-align: left;
+}
+
+.criadores .x-1jUYmM {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/x.svg);
+  background-size: 100% 100%;
+  height: 16px;
+  opacity: 1;
+  position: relative;
+  width: 16px;
+}
+
+.criadores .monitoria-Ebfosa {
+  --z-index: 2;
+  background-color: transparent;
+  color: #000000;
+  font-family: 'Inter', Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.48px;
+  line-height: 28.8px;
+  margin-bottom: -0.50px;
+  margin-top: -2.50px;
+  opacity: 1;
+  position: relative;
+  text-align: left;
+  width: 107px;
+}
+
+.criadores .criadores-Ebfosa {
+  --z-index: 3;
+  background-color: transparent;
+  color: #000000;
+  cursor: pointer;
+  font-family: 'Inter', Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.48px;
+  line-height: 28.8px;
+  margin-bottom: -0.50px;
+  margin-top: -2.50px;
+  opacity: 1;
+  position: relative;
+  text-align: left;
+  width: 110px;
+}
+
+.criadores .shopping-cart-Ebfosa {
+  --z-index: 4;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/shopping-cart.svg);
+  background-size: 100% 100%;
+  cursor: pointer;
+  height: 37.5px;
+  margin-bottom: -9.50px;
+  margin-top: -2.00px;
+  opacity: 1;
+  position: relative;
+  width: 38px;
+}
+/* screen - carrinho */
+
+.carrinho {
+  background-color: #f4f4f4;
+  height: 2102px;
+  opacity: 1;
+  overflow-x: hidden;
+  position: relative;
+  width: 1915px;
+}
+
+.carrinho .footer-C61RwL {
+  --z-index: 0;
+  align-items: flex-start;
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(165.00000536441803, 53.00000064074993, 252.00000017881393) 100%);
+  background-color: transparent;
+  box-shadow: inset 0px 16px 32px -4px #0c0c0d1a;
+  display: flex;
+  gap: 400px;
+  height: 107px;
+  left: 0px;
+  opacity: 1;
+  overflow: hidden;
+  padding: 32px 0px 160px 50px;
+  position: absolute;
+  top: 1995px;
+  width: 1915px;
+}
+
+.carrinho .title-iPe1yZ {
+  --z-index: 0;
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 24px;
+  margin-bottom: -137.00px;
+  min-width: 240px;
+  opacity: 1;
+  position: relative;
+  width: 240px;
+}
+
+.carrinho .monitoria-zHSyxO {
+  --z-index: 0;
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  opacity: 1;
+  position: relative;
+}
+
+.carrinho .logo-lhPAdV {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/logo.png);
+  background-size: 100% 100%;
+  height: 52px;
+  object-fit: cover;
+  opacity: 1;
+  position: relative;
+  width: 53px;
+}
+
+.carrinho .button-list-zHSyxO {
+  --z-index: 1;
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  opacity: 1;
+  position: relative;
+}
+
+.carrinho .logo-instagram-inxydy {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/logo-instagram-2.svg);
+  background-size: 100% 100%;
+  height: 24px;
+  opacity: 1;
+  position: relative;
+  width: 24px;
+}
+
+.carrinho .text-link-list-iPe1yZ {
+  --z-index: 1;
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 92px;
+  height: 41px;
+  justify-content: center;
+  margin-bottom: -126.00px;
+  opacity: 1;
+  position: relative;
+  width: 556px;
+}
+
+.carrinho .text-link-list-item-8oTHdx {
+  --z-index: 0;
+  background-color: transparent;
+  height: 22px;
+  opacity: 1;
+  position: relative;
+  width: 75px;
+}
+
+.carrinho .list-item-Thcyue {
+  --z-index: 0;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Inter', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  height: 22px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 22.4px;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: -1px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.carrinho .text-link-list-item-xZzNoU {
+  --z-index: 1;
+  background-color: transparent;
+  cursor: pointer;
+  height: 22px;
+  opacity: 1;
+  position: relative;
+  width: 79px;
+}
+
+.carrinho .list-item-6Mofaj {
+  --z-index: 0;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Inter', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  height: 22px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 22.4px;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: -1px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.carrinho .lista-de-produtos-C61RwL {
+  --z-index: 1;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  gap: 33px;
+  height: 599px;
+  justify-content: center;
+  left: 223px;
+  opacity: 1;
+  padding: 179px 30px;
+  position: absolute;
+  top: 171px;
+  width: 1100px;
+}
+
+.carrinho .foto-6TPyBv {
+  --z-index: 0;
+  background-color: transparent;
+  height: 480.80126953125px;
+  margin-bottom: -119.90px;
+  margin-top: -119.90px;
+  opacity: 1;
+  position: relative;
+  width: 484.0001220703125px;
+}
+
+.carrinho .background-l88sBq {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/background.svg);
+  background-size: 100% 100%;
+  height: 481px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 484px;
+}
+
+.carrinho .caneca-l88sBq {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/caneca.png);
+  background-size: 100% 100%;
+  height: 420px;
+  left: 46px;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 31px;
+  width: 392px;
+}
+
+.carrinho .item-6TPyBv {
+  --z-index: 1;
+  align-items: flex-start;
+  background-color: transparent;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 154px;
+  justify-content: center;
+  margin-bottom: -141.00px;
+  margin-top: -141.00px;
+  opacity: 1;
+  padding: 47px 0px;
+  position: relative;
+  width: 427px;
+}
+
+.carrinho .caneca-atletica-Zxt6hX {
+  --z-index: 0;
+  background-color: transparent;
+  color: #000000;
+  font-family: 'Inter', Helvetica;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 2.70px;
+  line-height: 53.6px;
+  margin-top: -1.00px;
+  opacity: 1;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.carrinho .r-xxxx-xx-Zxt6hX {
+  --z-index: 1;
+  background-color: transparent;
+  color: #000000;
+  font-family: 'Inter', Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1.44px;
+  line-height: 28.6px;
+  opacity: 1;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.carrinho .quantidade-Zxt6hX {
+  --z-index: 2;
+  background-color: transparent;
+  height: 38px;
+  opacity: 1;
+  position: relative;
+  width: 178px;
+}
+
+.carrinho .quantidade-1TYV8H {
+  --z-index: 0;
+  background-color: transparent;
+  color: #000000;
+  font-family: 'Inter', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 43px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 12px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.carrinho .button-1TYV8H {
+  --z-index: 1;
+  align-items: center;
+  background-color: #9d9d9d;
+  border-radius: 8px;
+  display: flex;
+  gap: 8px;
+  height: 38px;
+  justify-content: center;
+  left: 138px;
+  opacity: 1;
+  overflow: hidden;
+  padding: 12px;
+  position: absolute;
+  top: 0px;
+  width: 38px;
+}
+
+.carrinho .x-ek3h4r {
+  --z-index: 0;
+  background-color: transparent;
+  color: #f5f5f5;
+  font-family: 'Inter', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  margin-top: -2.00px;
+  opacity: 1;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.carrinho .button-BWzL4U {
+  --z-index: 2;
+  align-items: center;
+  background-color: #9d9d9d;
+  border-radius: 8px;
+  display: flex;
+  gap: 8px;
+  height: 38px;
+  justify-content: center;
+  left: 0px;
+  opacity: 1;
+  overflow: hidden;
+  padding: 12px;
+  position: absolute;
+  top: 0px;
+  width: 38px;
+}
+
+.carrinho .x-fDSZEd {
+  --z-index: 0;
+  background-color: transparent;
+  color: #f5f5f5;
+  font-family: 'Inter', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  margin-top: -2.00px;
+  opacity: 1;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.carrinho .fechar-pedido-C61RwL {
+  --z-index: 2;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 599px;
+  left: 1386px;
+  opacity: 1;
+  position: absolute;
+  top: 171px;
+  width: 456px;
+}
+
+.carrinho .r-xxxx-xx-SiVpxg {
+  --z-index: 0;
+  background-color: transparent;
+  color: #000000;
+  font-family: 'Inter', Helvetica;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 29px;
+  letter-spacing: 2.70px;
+  line-height: 53.6px;
+  opacity: 1;
+  position: absolute;
+  text-align: center;
+  top: 101px;
+  width: 352px;
+}
+
+.carrinho .button-SiVpxg {
+  --z-index: 1;
+  align-items: flex-start;
+  background: linear-gradient(180deg, rgb(124.97198805212975, 75.43749645352364, 255) 15.50000011920929%, rgb(164.21121329069138, 129.62499797344208, 255) 54.500001668930054%, rgb(124.97198805212975, 75.43749645352364, 255) 82.4999988079071%);
+  background-color: transparent;
+  border-radius: 36px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 82px;
+  justify-content: center;
+  left: 42px;
+  opacity: 1;
+  overflow: hidden;
+  position: absolute;
+  top: 473px;
+  width: 371px;
+}
+
+.carrinho .state-layer-anRbSa {
+  --z-index: 0;
+  align-items: center;
+  align-self: stretch;
+  background-color: transparent;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 8px;
+  justify-content: center;
+  opacity: 1;
+  padding: 10px 24px;
+  position: relative;
+  width: 100%;
+}
+
+.carrinho .label-text-pTOX4b {
+  --z-index: 0;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Inter', Helvetica;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 2.70px;
+  line-height: 53.6px;
+  margin-left: -11.50px;
+  margin-right: -11.50px;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.carrinho .total-SiVpxg {
+  --z-index: 2;
+  background-color: transparent;
+  color: #000000;
+  font-family: 'Inter', Helvetica;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 49px;
+  letter-spacing: -4.55px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: center;
+  top: 22px;
+  width: auto;
+}
+
+.carrinho .nav-C61RwL {
+  --z-index: 3;
+  align-items: center;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px 150px;
+  height: 106px;
+  justify-content: center;
+  left: 0px;
+  opacity: 1;
+  padding: 40px 46px;
+  position: fixed;
+  top: 0px;
+  width: 1915px;
+}
+
+.carrinho .logo-Ebfosa {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/logo-1@2x.png);
+  background-size: 100% 100%;
+  height: 76px;
+  margin-bottom: -25.00px;
+  margin-top: -25.00px;
+  opacity: 1;
+  position: relative;
+  width: 75px;
+}
+
+.carrinho .barra-de-busca-Ebfosa {
+  --z-index: 1;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 9999px;
+  display: flex;
+  gap: 8px;
+  height: 53px;
+  margin-bottom: -13.50px;
+  margin-top: -13.50px;
+  opacity: 1;
+  overflow: hidden;
+  padding: 12px 16px;
+  position: relative;
+  width: 623px;
+}
+
+.carrinho .value-1jUYmM {
+  --z-index: 0;
+  background-color: transparent;
+  color: #000000;
+  flex: 1;
+  font-family: 'Inter', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  opacity: 1;
+  position: relative;
+  text-align: left;
+}
+
+.carrinho .x-1jUYmM {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/x.svg);
+  background-size: 100% 100%;
+  height: 16px;
+  opacity: 1;
+  position: relative;
+  width: 16px;
+}
+
+.carrinho .monitoria-Ebfosa {
+  --z-index: 2;
+  background-color: transparent;
+  color: #000000;
+  font-family: 'Inter', Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.48px;
+  line-height: 28.8px;
+  margin-bottom: -0.50px;
+  margin-top: -2.50px;
+  opacity: 1;
+  position: relative;
+  text-align: left;
+  width: 107px;
+}
+
+.carrinho .criadores-Ebfosa {
+  --z-index: 3;
+  background-color: transparent;
+  color: #000000;
+  cursor: pointer;
+  font-family: 'Inter', Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.48px;
+  line-height: 28.8px;
+  margin-bottom: -0.50px;
+  margin-top: -2.50px;
+  opacity: 1;
+  position: relative;
+  text-align: left;
+  width: 110px;
+}
+
+.carrinho .shopping-cart-Ebfosa {
+  --z-index: 4;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/shopping-cart-3.svg);
+  background-size: 100% 100%;
+  cursor: pointer;
+  height: 37.5px;
+  margin-bottom: -9.50px;
+  margin-top: -2.00px;
+  opacity: 1;
+  position: relative;
+  width: 38px;
+}
+/* screen - pagina-inicial */
+
+.pagina-inicial {
+  background-color: #f5f5f5;
+  height: 2102px;
+  opacity: 1;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1915px;
+}
+
+.pagina-inicial .itens-C61RwL {
+  --z-index: 0;
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 188px;
+  justify-content: center;
+  left: 110px;
+  opacity: 1;
+  position: absolute;
+  top: 935px;
+  width: 1700px;
+}
+
+.pagina-inicial .item-x1zpte {
+  --z-index: 0;
+  align-items: center;
+  background-color: #6428a1;
+  border-radius: 20px;
+  box-shadow: 0px 16px 32px -8px #00000066;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  height: 417px;
+  justify-content: center;
+  opacity: 1;
+  padding: 20px 0px 0px;
+  position: relative;
+  width: 346px;
+}
+
+.pagina-inicial .caneca2-8D3wtK {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/caneca2@2x.png);
+  background-size: 100% 100%;
+  height: 176px;
+  opacity: 1;
+  position: relative;
+  width: 232px;
+}
+
+.pagina-inicial .caneca-do-angular-8D3wtK {
+  --z-index: 1;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Inter', Helvetica;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -2.80px;
+  line-height: normal;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.pagina-inicial .r-xxxxxx-8D3wtK {
+  --z-index: 2;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Inter', Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1.44px;
+  line-height: 28.6px;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.pagina-inicial .button-8D3wtK {
+  --z-index: 3;
+  align-items: center;
+  background: linear-gradient(180deg, rgb(124.97198805212975, 75.43749645352364, 255) 15.50000011920929%, rgb(164.21121329069138, 129.62499797344208, 255) 54.500001668930054%, rgb(124.97198805212975, 75.43749645352364, 255) 82.4999988079071%);
+  background-color: transparent;
+  border-radius: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 55px;
+  justify-content: center;
+  opacity: 1;
+  overflow: hidden;
+  position: relative;
+  width: 224px;
+}
+
+.pagina-inicial .state-layer-aqrFIG {
+  --z-index: 0;
+  align-items: center;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 8px;
+  justify-content: center;
+  opacity: 1;
+  padding: 10px 24px;
+  position: relative;
+  width: 100%;
+}
+
+.pagina-inicial .label-text-LAPr4s {
+  --z-index: 0;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Inter', Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1.44px;
+  line-height: 28.6px;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.pagina-inicial .item-z8Gc4u {
+  --z-index: 1;
+  align-items: center;
+  background-color: #6428a1;
+  border-radius: 20px;
+  box-shadow: 0px 16px 32px -8px #00000066;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  height: 417px;
+  justify-content: center;
+  opacity: 1;
+  padding: 20px 0px 0px;
+  position: relative;
+  width: 346px;
+}
+
+.pagina-inicial .caneca2-HuQC99 {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/caneca2@2x.png);
+  background-size: 100% 100%;
+  height: 176px;
+  opacity: 1;
+  position: relative;
+  width: 232px;
+}
+
+.pagina-inicial .caneca-do-angular-HuQC99 {
+  --z-index: 1;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Inter', Helvetica;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -2.80px;
+  line-height: normal;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.pagina-inicial .r-xxxxxx-HuQC99 {
+  --z-index: 2;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Inter', Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1.44px;
+  line-height: 28.6px;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.pagina-inicial .button-HuQC99 {
+  --z-index: 3;
+  align-items: center;
+  background: linear-gradient(180deg, rgb(124.97198805212975, 75.43749645352364, 255) 15.50000011920929%, rgb(164.21121329069138, 129.62499797344208, 255) 54.500001668930054%, rgb(124.97198805212975, 75.43749645352364, 255) 82.4999988079071%);
+  background-color: transparent;
+  border-radius: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 55px;
+  justify-content: center;
+  opacity: 1;
+  overflow: hidden;
+  position: relative;
+  width: 224px;
+}
+
+.pagina-inicial .state-layer-bi4N6T {
+  --z-index: 0;
+  align-items: center;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 8px;
+  justify-content: center;
+  opacity: 1;
+  padding: 10px 24px;
+  position: relative;
+  width: 100%;
+}
+
+.pagina-inicial .label-text-YNet71 {
+  --z-index: 0;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Inter', Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1.44px;
+  line-height: 28.6px;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.pagina-inicial .item-yNGICo {
+  --z-index: 2;
+  align-items: center;
+  background-color: #6428a1;
+  border-radius: 20px;
+  box-shadow: 0px 16px 32px -8px #00000066;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  height: 417px;
+  justify-content: center;
+  opacity: 1;
+  padding: 20px 0px 0px;
+  position: relative;
+  width: 346px;
+}
+
+.pagina-inicial .caneca2-aGks66 {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/caneca2@2x.png);
+  background-size: 100% 100%;
+  height: 176px;
+  opacity: 1;
+  position: relative;
+  width: 232px;
+}
+
+.pagina-inicial .caneca-do-angular-aGks66 {
+  --z-index: 1;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Inter', Helvetica;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -2.80px;
+  line-height: normal;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.pagina-inicial .r-xxxxxx-aGks66 {
+  --z-index: 2;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Inter', Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1.44px;
+  line-height: 28.6px;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.pagina-inicial .button-aGks66 {
+  --z-index: 3;
+  align-items: center;
+  background: linear-gradient(180deg, rgb(124.97198805212975, 75.43749645352364, 255) 15.50000011920929%, rgb(164.21121329069138, 129.62499797344208, 255) 54.500001668930054%, rgb(124.97198805212975, 75.43749645352364, 255) 82.4999988079071%);
+  background-color: transparent;
+  border-radius: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 55px;
+  justify-content: center;
+  opacity: 1;
+  overflow: hidden;
+  position: relative;
+  width: 224px;
+}
+
+.pagina-inicial .state-layer-uxd1Yy {
+  --z-index: 0;
+  align-items: center;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 8px;
+  justify-content: center;
+  opacity: 1;
+  padding: 10px 24px;
+  position: relative;
+  width: 100%;
+}
+
+.pagina-inicial .label-text-AB7LKb {
+  --z-index: 0;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Inter', Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1.44px;
+  line-height: 28.6px;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.pagina-inicial .footer-C61RwL {
+  --z-index: 1;
+  align-items: flex-start;
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(165.00000536441803, 53.00000064074993, 252.00000017881393) 100%);
+  background-color: transparent;
+  box-shadow: inset 0px 16px 32px -4px #0c0c0d1a;
+  display: flex;
+  gap: 400px;
+  height: 107px;
+  left: 0px;
+  opacity: 1;
+  overflow: hidden;
+  padding: 32px 0px 160px 50px;
+  position: absolute;
+  top: 1995px;
+  width: 1915px;
+}
+
+.pagina-inicial .title-iPe1yZ {
+  --z-index: 0;
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 24px;
+  margin-bottom: -137.00px;
+  min-width: 240px;
+  opacity: 1;
+  position: relative;
+  width: 240px;
+}
+
+.pagina-inicial .monitoria-zHSyxO {
+  --z-index: 0;
+  align-items: center;
+  background-color: transparent;
+  cursor: pointer;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  opacity: 1;
+  position: relative;
+}
+
+.pagina-inicial .logo-lhPAdV {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/logo.png);
+  background-size: 100% 100%;
+  height: 52px;
+  object-fit: cover;
+  opacity: 1;
+  position: relative;
+  width: 53px;
+}
+
+.pagina-inicial .button-list-zHSyxO {
+  --z-index: 1;
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  opacity: 1;
+  position: relative;
+}
+
+.pagina-inicial .logo-instagram-inxydy {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/logo-instagram-1.svg);
+  background-size: 100% 100%;
+  height: 24px;
+  opacity: 1;
+  position: relative;
+  width: 24px;
+}
+
+.pagina-inicial .text-link-list-iPe1yZ {
+  --z-index: 1;
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 92px;
+  height: 41px;
+  justify-content: center;
+  margin-bottom: -126.00px;
+  opacity: 1;
+  position: relative;
+  width: 556px;
+}
+
+.pagina-inicial .text-link-list-item-8oTHdx {
+  --z-index: 0;
+  background-color: transparent;
+  height: 22px;
+  opacity: 1;
+  position: relative;
+  width: 75px;
+}
+
+.pagina-inicial .list-item-Thcyue {
+  --z-index: 0;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Inter', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  height: 22px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 22.4px;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: -1px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.pagina-inicial .text-link-list-item-xZzNoU {
+  --z-index: 1;
+  background-color: transparent;
+  cursor: pointer;
+  height: 22px;
+  opacity: 1;
+  position: relative;
+  width: 79px;
+}
+
+.pagina-inicial .list-item-6Mofaj {
+  --z-index: 0;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Inter', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  height: 22px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 22.4px;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: -1px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.pagina-inicial .divisoria-C61RwL {
+  --z-index: 2;
+  background-color: #aeacac;
+  border-radius: 40px;
+  box-shadow: inset 0px 16px 32px -8px #0c0c0d66;
+  height: 17px;
+  left: 135px;
+  opacity: 1;
+  position: absolute;
+  top: 874px;
+  width: 1699px;
+}
+
+.pagina-inicial .destaques-da-loja-C61RwL {
+  --z-index: 3;
+  align-items: center;
+  background: linear-gradient(180deg, rgb(49.85975794494152, 13.104166835546494, 78.62500101327896) 0%, rgb(0, 0, 0) 40.00000059604645%, rgb(88.3911381661892, 18.983332961797714, 142.37500101327896) 76.99999809265137%, rgb(140.78122973442078, 59.50000025331974, 204.00000303983688) 93.00000071525574%);
+  background-color: transparent;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 131px;
+  height: 679px;
+  justify-content: center;
+  left: 0px;
+  opacity: 1;
+  padding: 30px 305px;
+  position: absolute;
+  top: 151px;
+  width: 1915px;
+}
+
+.pagina-inicial .caneca3-UpUf4v {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/caneca3.png);
+  background-size: 100% 100%;
+  height: 393px;
+  opacity: 1;
+  position: relative;
+  width: 518px;
+}
+
+.pagina-inicial .caneca-do-angular-UpUf4v {
+  --z-index: 1;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Inter', Helvetica;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  height: 62px;
+  letter-spacing: -4.55px;
+  line-height: normal;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 460px;
+}
+
+.pagina-inicial .r-xxxxxx-UpUf4v {
+  --z-index: 2;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Inter', Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1.44px;
+  line-height: 28.6px;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.pagina-inicial .lorem-ipsum-dolor-si-UpUf4v {
+  --z-index: 3;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Inter', Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  height: 92px;
+  letter-spacing: 1.44px;
+  line-height: 28.6px;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+  width: 386px;
+}
+
+.pagina-inicial .boto-de-compra-UpUf4v {
+  --z-index: 4;
+  align-items: center;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 84px;
+  justify-content: center;
+  opacity: 1;
+  padding: 10px 89px;
+  position: relative;
+  width: 142px;
+}
+
+.pagina-inicial .shopping-cart-CCMK47 {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/shopping-cart-1.svg);
+  background-size: 100% 100%;
+  height: 48px;
+  margin-left: -42.00px;
+  margin-right: -42.00px;
+  margin-top: -11.50px;
+  opacity: 1;
+  position: relative;
+  width: 48px;
+}
+
+.pagina-inicial .frame-1-CCMK47 {
+  --z-index: 1;
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: -11.50px;
+  margin-left: -73.50px;
+  margin-right: -73.50px;
+  opacity: 1;
+  position: relative;
+}
+
+.pagina-inicial .comprar-Wodxh1 {
+  --z-index: 0;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Inter', Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1.44px;
+  line-height: 28.6px;
+  margin-top: -1.00px;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.pagina-inicial .nav-C61RwL {
+  --z-index: 4;
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px 150px;
+  height: 106px;
+  justify-content: center;
+  left: 2px;
+  opacity: 1;
+  padding: 40px 46px;
+  position: fixed;
+  top: 0px;
+  width: 1915px;
+}
+
+.pagina-inicial .logo-Ebfosa {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/logo-1@2x.png);
+  background-size: 100% 100%;
+  cursor: pointer;
+  height: 76px;
+  margin-bottom: -25.00px;
+  margin-top: -25.00px;
+  opacity: 1;
+  position: relative;
+  width: 75px;
+}
+
+.pagina-inicial .barra-de-busca-Ebfosa {
+  --z-index: 1;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 9999px;
+  display: flex;
+  gap: 8px;
+  height: 53px;
+  margin-bottom: -13.50px;
+  margin-top: -13.50px;
+  opacity: 1;
+  overflow: hidden;
+  padding: 12px 16px;
+  position: relative;
+  width: 623px;
+}
+
+.pagina-inicial .value-1jUYmM {
+  --z-index: 0;
+  background-color: transparent;
+  color: #000000;
+  flex: 1;
+  font-family: 'Inter', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  opacity: 1;
+  position: relative;
+  text-align: left;
+}
+
+.pagina-inicial .x-1jUYmM {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/x.svg);
+  background-size: 100% 100%;
+  height: 16px;
+  opacity: 1;
+  position: relative;
+  width: 16px;
+}
+
+.pagina-inicial .monitoria-Ebfosa {
+  --z-index: 2;
+  background-color: transparent;
+  color: #000000;
+  font-family: 'Inter', Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.48px;
+  line-height: 28.8px;
+  margin-bottom: -0.50px;
+  margin-top: -2.50px;
+  opacity: 1;
+  position: relative;
+  text-align: left;
+  width: 107px;
+}
+
+.pagina-inicial .criadores-Ebfosa {
+  --z-index: 3;
+  background-color: transparent;
+  color: #000000;
+  cursor: pointer;
+  font-family: 'Inter', Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.48px;
+  line-height: 28.8px;
+  margin-bottom: -0.50px;
+  margin-top: -2.50px;
+  opacity: 1;
+  position: relative;
+  text-align: left;
+  width: 110px;
+}
+
+.pagina-inicial .shopping-cart-Ebfosa {
+  --z-index: 4;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/shopping-cart-2.svg);
+  background-size: 100% 100%;
+  cursor: pointer;
+  height: 37.5px;
+  margin-bottom: -9.50px;
+  margin-top: -2.00px;
+  opacity: 1;
+  position: relative;
+  width: 38px;
+}
+/* screen - compra */
+
+.compra {
+  background-color: #f4f4f4;
+  height: 2102px;
+  opacity: 1;
+  overflow-x: hidden;
+  position: relative;
+  width: 1915px;
+}
+
+.compra .footer-C61RwL {
+  --z-index: 0;
+  align-items: flex-start;
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(165.00000536441803, 53.00000064074993, 252.00000017881393) 100%);
+  background-color: transparent;
+  box-shadow: inset 0px 16px 32px -4px #0c0c0d1a;
+  display: flex;
+  gap: 400px;
+  height: 107px;
+  left: 0px;
+  opacity: 1;
+  overflow: hidden;
+  padding: 32px 0px 160px 50px;
+  position: absolute;
+  top: 1995px;
+  width: 1915px;
+}
+
+.compra .title-iPe1yZ {
+  --z-index: 0;
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 24px;
+  margin-bottom: -137.00px;
+  min-width: 240px;
+  opacity: 1;
+  position: relative;
+  width: 240px;
+}
+
+.compra .monitoria-zHSyxO {
+  --z-index: 0;
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  opacity: 1;
+  position: relative;
+}
+
+.compra .logo-lhPAdV {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/logo.png);
+  background-size: 100% 100%;
+  height: 52px;
+  object-fit: cover;
+  opacity: 1;
+  position: relative;
+  width: 53px;
+}
+
+.compra .button-list-zHSyxO {
+  --z-index: 1;
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  opacity: 1;
+  position: relative;
+}
+
+.compra .logo-instagram-inxydy {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/logo-instagram-3.svg);
+  background-size: 100% 100%;
+  height: 24px;
+  opacity: 1;
+  position: relative;
+  width: 24px;
+}
+
+.compra .text-link-list-iPe1yZ {
+  --z-index: 1;
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 92px;
+  height: 41px;
+  justify-content: center;
+  margin-bottom: -126.00px;
+  opacity: 1;
+  position: relative;
+  width: 556px;
+}
+
+.compra .text-link-list-item-8oTHdx {
+  --z-index: 0;
+  background-color: transparent;
+  height: 22px;
+  opacity: 1;
+  position: relative;
+  width: 75px;
+}
+
+.compra .list-item-Thcyue {
+  --z-index: 0;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Inter', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  height: 22px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 22.4px;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: -1px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.compra .text-link-list-item-xZzNoU {
+  --z-index: 1;
+  background-color: transparent;
+  cursor: pointer;
+  height: 22px;
+  opacity: 1;
+  position: relative;
+  width: 79px;
+}
+
+.compra .list-item-6Mofaj {
+  --z-index: 0;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Inter', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  height: 22px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 22.4px;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: -1px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.compra .item-C61RwL {
+  --z-index: 1;
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 253px 253px;
+  height: 674px;
+  justify-content: center;
+  left: 200px;
+  opacity: 1;
+  padding: 0px 30px;
+  position: absolute;
+  top: 146px;
+  width: 1515px;
+}
+
+.compra .produto-tKx3qu {
+  --z-index: 0;
+  background-color: transparent;
+  height: 567px;
+  opacity: 1;
+  position: relative;
+  width: 647px;
+}
+
+.compra .background-qEQW7S {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/background-1.svg);
+  background-size: 100% 100%;
+  height: 567px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 647px;
+}
+
+.compra .caneca-qEQW7S {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/caneca.png);
+  background-size: 100% 100%;
+  height: 496px;
+  left: 62px;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 35px;
+  width: 524px;
+}
+
+.compra .detalhes-tKx3qu {
+  --z-index: 1;
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  opacity: 1;
+  position: relative;
+  width: 478px;
+}
+
+.compra .caneca-atltica-TtnQEo {
+  --z-index: 0;
+  align-self: stretch;
+  background-color: transparent;
+  color: #000000;
+  font-family: 'Inter', Helvetica;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -4.55px;
+  line-height: normal;
+  margin-top: -1.00px;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+}
+
+.compra .r-xxxx-xx-TtnQEo {
+  --z-index: 1;
+  align-self: stretch;
+  background-color: transparent;
+  color: #000000;
+  font-family: 'Inter', Helvetica;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -4.55px;
+  line-height: normal;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+}
+
+.compra .button-TtnQEo {
+  --z-index: 2;
+  align-items: flex-start;
+  background: linear-gradient(180deg, rgb(124.97198805212975, 75.43749645352364, 255) 15.50000011920929%, rgb(164.21121329069138, 129.62499797344208, 255) 54.500001668930054%, rgb(124.97198805212975, 75.43749645352364, 255) 82.4999988079071%);
+  background-color: transparent;
+  border-radius: 36px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 86px;
+  justify-content: center;
+  opacity: 1;
+  overflow: hidden;
+  position: relative;
+  width: 352px;
+}
+
+.compra .state-layer-Qih3lP {
+  --z-index: 0;
+  align-items: center;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 8px;
+  justify-content: center;
+  opacity: 1;
+  padding: 10px 24px;
+  position: relative;
+  width: 100%;
+}
+
+.compra .label-text-guyOQd {
+  --z-index: 0;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Inter', Helvetica;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 2.70px;
+  line-height: 53.6px;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.compra .button-ZmOBdt {
+  --z-index: 3;
+  align-items: flex-start;
+  background-color: #ffffff;
+  border-radius: 36px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 86px;
+  justify-content: center;
+  opacity: 1;
+  overflow: hidden;
+  position: relative;
+  width: 352px;
+}
+
+.compra .state-layer-6FxLlA {
+  --z-index: 0;
+  align-items: center;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 8px;
+  justify-content: center;
+  opacity: 1;
+  padding: 10px 24px;
+  position: relative;
+  width: 100%;
+}
+
+.compra .label-text-nIN9VT {
+  --z-index: 0;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, rgb(125.00000014901161, 75.00000312924385, 255) 0%, rgb(164.00000542402267, 130.0000074505806, 255) 51.499998569488525%, rgb(125.00000014901161, 75.00000312924385, 255) 100%);
+  background-clip: text;
+  background-color: transparent;
+  color: transparent;
+  font-family: 'Inter', Helvetica;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 2.70px;
+  line-height: 53.6px;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+  text-fill-color: transparent;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.compra .frame-4-C61RwL {
+  --z-index: 2;
+  align-items: flex-start;
+  background-color: #fffffff9;
+  border-radius: 20px;
+  display: flex;
+  gap: 10px;
+  height: 324px;
+  justify-content: center;
+  left: 275px;
+  opacity: 1;
+  padding: 37px 15px;
+  position: absolute;
+  top: 820px;
+  width: 1440px;
+}
+
+.compra .lorem-ipsum-dolor-si-61Z7WH {
+  --z-index: 0;
+  background-color: transparent;
+  color: #000000;
+  font-family: 'Inter', Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1.44px;
+  line-height: 28.6px;
+  margin-bottom: -10.00px;
+  margin-top: -1.00px;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+  width: 1410px;
+}
+
+.compra .nav-C61RwL {
+  --z-index: 3;
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px 150px;
+  height: 106px;
+  justify-content: center;
+  left: 0px;
+  opacity: 1;
+  padding: 40px 46px;
+  position: fixed;
+  top: 0px;
+  width: 1915px;
+}
+
+.compra .logo-Ebfosa {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/logo-1@2x.png);
+  background-size: 100% 100%;
+  height: 76px;
+  margin-bottom: -25.00px;
+  margin-top: -25.00px;
+  opacity: 1;
+  position: relative;
+  width: 75px;
+}
+
+.compra .barra-de-busca-Ebfosa {
+  --z-index: 1;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 9999px;
+  display: flex;
+  gap: 8px;
+  height: 53px;
+  margin-bottom: -13.50px;
+  margin-top: -13.50px;
+  opacity: 1;
+  overflow: hidden;
+  padding: 12px 16px;
+  position: relative;
+  width: 623px;
+}
+
+.compra .value-1jUYmM {
+  --z-index: 0;
+  background-color: transparent;
+  color: #000000;
+  flex: 1;
+  font-family: 'Inter', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  opacity: 1;
+  position: relative;
+  text-align: left;
+}
+
+.compra .x-1jUYmM {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/x.svg);
+  background-size: 100% 100%;
+  height: 16px;
+  opacity: 1;
+  position: relative;
+  width: 16px;
+}
+
+.compra .monitoria-Ebfosa {
+  --z-index: 2;
+  background-color: transparent;
+  color: #000000;
+  font-family: 'Inter', Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.48px;
+  line-height: 28.8px;
+  margin-bottom: -0.50px;
+  margin-top: -2.50px;
+  opacity: 1;
+  position: relative;
+  text-align: left;
+  width: 107px;
+}
+
+.compra .criadores-Ebfosa {
+  --z-index: 3;
+  background-color: transparent;
+  color: #000000;
+  cursor: pointer;
+  font-family: 'Inter', Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.48px;
+  line-height: 28.8px;
+  margin-bottom: -0.50px;
+  margin-top: -2.50px;
+  opacity: 1;
+  position: relative;
+  text-align: left;
+  width: 110px;
+}
+
+.compra .shopping-cart-Ebfosa {
+  --z-index: 4;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/6706f734a868b59671f3d3ef/releases/6706f7edb25e45c480a3903d/img/shopping-cart-4.svg);
+  background-size: 100% 100%;
+  cursor: pointer;
+  height: 37.5px;
+  margin-bottom: -9.50px;
+  margin-top: -2.00px;
+  opacity: 1;
+  position: relative;
+  width: 38px;
+}
